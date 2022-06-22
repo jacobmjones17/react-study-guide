@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Question from "./Question";
 
+
 function QuestionList() {
-    const [questions, setQuestions] = useState(quiz);
+    const [questions, setQuestions] = useState();
     const [currentQuestionId, setCurrentQuestion] = useState(1);
     const [score, setScore] = useState(0);
     const currentQuestion = questions.find((q) => q.id === currentQuestionId);
+    console.log(questions)
+
+    useEffect(() => {
+        fetch("http://localhost:3000/questions")
+        .then((response) => response.json())
+        .then((questions) => setQuestions(questions))
+    }, [])
 
     function handleQuestionAnswered(correct) {
         if (currentQuestionId < questions.length) {
