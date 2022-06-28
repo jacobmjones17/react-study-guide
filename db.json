@@ -171,100 +171,85 @@
         },
         {
             "id": 17,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "Which hook gives us the ability to programmatically navigate the user to a new page in our application?",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "useState",
+                "useParams",
+                "useHistory",
+                "I don't know."
             ],
-            "correctIndex": "0"
+            "correctIndex": "2"
         },
         {
             "id": 18,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "______ is the process of handling all the routing logic with JavaScript, without making any additional GET requests for some new HTML document.",
             "answers": [
-                "State",
+                "Client-Side Routing",
+                "Virtual DOM",
                 "useEffect",
-                "Array",
-                "Props"
+                "useHistory"
             ],
             "correctIndex": "0"
         },
         {
             "id": 19,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "Server-side routing happens when the route is handled internally by the JavaScript that is loaded on the page.",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "False",
+                "True"
             ],
             "correctIndex": "0"
         },
         {
             "id": 20,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "The useParams hook allows a component to access data based on the dynamic portion of the URL, such as /dogs/:id.",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "True",
+                "False"
             ],
             "correctIndex": "0"
         },
         {
             "id": 21,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "We use ______ to change the browser's URL and show the user a new page in our application without making the user click on a link.",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "Dynamic Routing",
+                "Client-Side Routing",
+                "I don't know",
+                "Programmatic Navigation"
             ],
-            "correctIndex": "0"
+            "correctIndex": "3"
         },
         {
             "id": 22,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "Which hook should we use to access the dynamic pieces of a URL?",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "I don't know.",
+                "useState",
+                "useParams",
+                "useHistory"
             ],
-            "correctIndex": "0"
+            "correctIndex": "2"
         },
         {
             "id": 23,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "Which of the following commands will download all the packages listed in a package.json file?",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "npm init",
+                "npm install",
+                "npm start",
+                "npm run"
             ],
             "correctIndex": "0"
         },
         {
             "id": 24,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "prompt": "is a package manager for JavaScript that works with your JavaScript project directories via the command line, allowing you to install packages of preexisting code.",
             "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 25,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
-            "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
+                "npm",
+                "JSX",
+                "BABEL",
+                "HTML"
             ],
             "correctIndex": "0"
         }
