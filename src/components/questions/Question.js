@@ -16,7 +16,6 @@ function Question({ question, onAnswered }) {
 
         return () => {
             clearTimeout(timerId);
-            console.log(timeRemaining)
         };
     }, [timeRemaining, onAnswered])
 

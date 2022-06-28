@@ -65,9 +65,210 @@
                 "controlled"
             ],
             "correctIndex": 1
+        },
+        {
+            "id": 7,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 8,
+            "prompt": "Event listeners cannot be attached directly to our custom React components.",
+            "answers": [
+                "True",
+                "False"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 9,
+            "prompt": "React will always re-render a component when the setState function is called.",
+            "answers": [
+                "False",
+                "True"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 10,
+            "prompt": "A React function component must start with a capital letter.",
+            "answers": [
+                "False",
+                "True"
+            ],
+            "correctIndex": "1"
+        },
+        {
+            "id": 11,
+            "prompt": "We use a/an ______ to pass data into a component.",
+            "answers": [
+                "Object",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "3"
+        },
+        {
+            "id": 12,
+            "prompt": "When should you use the key prop?",
+            "answers": [
+                "I don't know",
+                "Any time '.map' is used in a component",
+                "When rendering an array of components",
+                "If two components are siblings"
+            ],
+            "correctIndex": "2"
+        },
+        {
+            "id": 13,
+            "prompt": "Natasha is building a Twitter clone, and is trying to fetch some data from the Twitter API when her App component loads. What is the best approach to doing this?",
+            "answers": [
+                "Making the user click a button and handling the fetch request in the click event handler.",
+                "Using the useEffect hook to fetch all the tweets she initially needs.",
+                "I don't know.",
+                "Making the fetch request directly in the body of the component function. "
+            ],
+            "correctIndex": "1"
+        },
+        {
+            "id": 14,
+            "prompt": "Natasha now wants her users to be able to update their profiles in her Twitter clone. A user should be able to update their profile by filling out and submitting a form. She'll then need to take the data from the form and send it to her backend by making a PATCH request. Should she handle this action with the useEffect hook, or by attaching an event listener?",
+            "answers": [
+                "I don't know.",
+                "useEffect, because she needs the data immediately when the page loads.",
+                "Event listener, because she only wants the fetch to fire when the user is done updating their profile."
+            ],
+            "correctIndex": "2"
+        },
+        {
+            "id": 15,
+            "prompt": "When we're using the useEffect hook, React gives us a way to control when the side effect function will run. What is it?",
+            "answers": [
+                "By passing a second argument to useEffect of a dependencies array.",
+                "By calling the useEffect inside an if/else statement.",
+                "I don't know",
+                "By running a cleanup function in a useEffect callback function."
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 16,
+            "prompt": "When and why should we use a cleanup function with useEffect?",
+            "answers": [
+                "Any time we make a network request with fetch.",
+                "If we have a long running function that we want to stop running when our component is no longer the page.",
+                "I don't know.",
+                "Always, just to be safe. "
+            ],
+            "correctIndex": "1"
+        },
+        {
+            "id": 17,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 18,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 19,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 20,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 21,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 22,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 23,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 24,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
+        },
+        {
+            "id": 25,
+            "prompt": "A controlled component is a component that derives its input values from ____.",
+            "answers": [
+                "State",
+                "useEffect",
+                "Array",
+                "Props"
+            ],
+            "correctIndex": "0"
         }
     ],
-    
     "flashcards": [
         {
             "id": 1,

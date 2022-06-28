@@ -14,8 +14,6 @@ function QuestionList() {
         .then((questions) => setQuestions(questions))
     }, [])
 
-    console.log(questions)
-
     function handleQuestionAnswered(correct) {
         if (currentQuestionId < questions.length) {
             setCurrentQuestion((currentQuestionId) => currentQuestionId + 1);
@@ -37,7 +35,7 @@ function QuestionList() {
                     />
                 ) : (
                     <>
-                        <h1>Game Over</h1>
+                        <h1>Quiz Complete</h1>
                         <h2>Total Correct: {score}</h2>
                     </>
                 )}
