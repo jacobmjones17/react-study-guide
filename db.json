@@ -262,7 +262,7 @@
         },
         {
             "id": 2,
-            "prompt": "React?",
+            "prompt": "React",
             "answer": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components.'"
         },
         {
@@ -288,7 +288,27 @@
         {
             "id": 7,
             "prompt": "React Router",
+            "answer": "This is a JavaScript (user-interface framework) library developed by engineers at Facebook."
+        },
+        {
+            "id": 8,
+            "prompt": "ReactJS",
             "answer": "React Router is a standard library for routing in React and is used mainly for developing single page applications and offers dynamic routing. Some of its components are BrowserRouter, Route, Link, and Switch."
+        },
+        {
+            "id": 9,
+            "prompt": "JSX element",
+            "answer": "A basic unit of JSX found in a JavaScript file which is treated as, and has the functionality of, a JavaScript expression. It can also have attributes, just like HTML elements."
+        },
+        {
+            "id": 10,
+            "prompt": "A JSX expression must have",
+            "answer": "exactly one outermost element."
+        },
+        {
+            "id": 11,
+            "prompt": "ReactDOM",
+            "answer": "This is a JavaScript library that contains several React-specific methods, all of which deal with the DOM in some way or another."
         }
     ]
 }
