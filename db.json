@@ -66,5 +66,43 @@
             ],
             "correctIndex": 1
         }
+    ],
+    
+    "flashcards": [
+        {
+            "id": 1,
+            "prompt": "State",
+            "answer": "The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders."
+        },
+        {
+            "id": 2,
+            "prompt": "React?",
+            "answer": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components.'"
+        },
+        {
+            "id": 3,
+            "prompt": "Is setState synchronous or asynchronous?",
+            "answer": "setState is asynchronous, though it may act like it's synchronous. When calling setState, React waits for all components have finished calling setState to then re-render components. This boosts performance and reduces unneccessary re-renders."
+        },
+        {
+            "id": 4,
+            "prompt": "JSX",
+            "answer": "JSX is a syntax notation for Javascript XML and provides expressiveness of JavaScript along with HTML."
+        },
+        {
+            "id": 5,
+            "prompt": "virtual DOM",
+            "answer": "The virtual DOM (VDOM) is a programming concept where a virtual representation of a UI is kept in memory and synced with the 'real' DOM by a library such as ReactDOM. This process is called reconciliation. React uses a diffing algorithm to update only the changes it finds."
+        },
+        {
+            "id": 6,
+            "prompt": "Props",
+            "answer": "Props are arguments passed into React components and are passed down similar to HTML attributes. Props are read-only and can be JavaScript expressions, string literals, callback functions, and other components."
+        },
+        {
+            "id": 7,
+            "prompt": "React Router",
+            "answer": "React Router is a standard library for routing in React and is used mainly for developing single page applications and offers dynamic routing. Some of its components are BrowserRouter, Route, Link, and Switch."
+        }
     ]
 }
