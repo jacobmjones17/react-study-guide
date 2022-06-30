@@ -1,10 +1,6 @@
 import React from "react";
-import QuestionList from "./components/questions/QuestionList";
-import QuestionForm from "./components/questions/QuestionForm";
-import NavBar from "./components/NavBar";
-import CardForm from "./components/flashcards/CardForm";
-import CardList from "./components/flashcards/CardList";
 import { Link } from "react-router-dom";
+
 
 function App() {
 

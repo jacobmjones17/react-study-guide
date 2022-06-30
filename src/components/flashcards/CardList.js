@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
+import "./app.css"
+
 
 function CardList() {
     const [cards, setCards] = useState([]);
@@ -10,12 +12,13 @@ function CardList() {
             .then((cards) => setCards(cards))
     }, [])
 
-    console.log(cards)
 
     return (
-        <main>
-            {/* <Card /> */}
-        </main>
+        <div className="card-grid">
+            {cards.map(flashcard => {
+                return <Card flashcard={flashcard} key={flashcard.id} />
+            })}
+        </div>
     );
 }
 

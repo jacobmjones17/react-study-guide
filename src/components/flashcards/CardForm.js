@@ -18,7 +18,7 @@ function CardForm(props) {
 
         const newCardInfo = {
             "prompt": formData.prompt,
-            "answers": [
+            "answer": [
                 formData.answer
             ]
         }
@@ -30,7 +30,7 @@ function CardForm(props) {
             body: JSON.stringify(newCardInfo)
         })
             .then((response) => response.json())
-            .then((newCard) => console.log(newCard))
+            .then((newCard) => setFormData(newCard))
     }
 
     return (
