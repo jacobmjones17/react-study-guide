@@ -22,7 +22,7 @@ function CardForm(props) {
                 formData.answer
             ]
         }
-        fetch("http://localhost:3000/questions", {
+        fetch("http://localhost:3000/flashcards", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

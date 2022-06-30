@@ -1,14 +1,60 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-function AdminNavBar({ onChangePage }) {
-  return (
-    <nav>
-      <button onClick={() => onChangePage("List")}>Quiz</button>
-      <button onClick={() => onChangePage("Form")}>Flashcard</button>
-      <button onClick={() => onChangePage("Form")}>Add Question</button>
-      <button onClick={() => onChangePage("Form")}>Add Flashcard</button>
-    </nav>
-  );
+const linkStyles = {
+    display: "inline-block",
+    width: "50px",
+    padding: "12px",
+    margin: "0 6px 6px",
+    background: "blue",
+    textDecoration: "none",
+    color: "white",
+};
+
+function NavBar() {
+    return <div>
+    <NavLink
+        to="/quiz"
+        exact
+        style={linkStyles}
+        activeStyle={{
+            background:"orange"
+        }}
+    >
+        Quiz
+    </NavLink>
+    <NavLink
+        to="/flashcards"
+        exact
+        style={linkStyles}
+        activeStyle={{
+            background:"orange"
+        }}
+    >
+        Flash Cards
+    </NavLink>
+    <NavLink
+        to="/addquestion"
+        exact
+        style={linkStyles}
+        activeStyle={{
+            background:"orange"
+        }}
+    >
+        Add Question
+    </NavLink>
+    <NavLink
+        to="/addflashcard"
+        exact
+        style={linkStyles}
+        activeStyle={{
+            background:"orange"
+        }}
+    >
+        Add Flash Card
+    </NavLink>
+    
+    </div>
 }
 
-export default AdminNavBar;
+export default NavBar;
