@@ -38,7 +38,14 @@ function QuestionForm() {
       body: JSON.stringify(newQuestionInfo)
     })
       .then((response) => response.json())
-      .then((newQuestion) => console.log(newQuestion))
+      .then((newQuestion) => setFormData({
+        prompt: "",
+        answer1: "",
+        answer2: "",
+        answer3: "",
+        answer4: "",
+        correctIndex: 0,
+      }))
   }
 
   return (

@@ -25,3 +25,5 @@ Questions for instructor:
 2. How do I keep the <h1> "Study Guide" and <NavLinks> on all pages.
 3. Help me style
 4. How do I get forms to clear on submit 
+
+Lecture on style components

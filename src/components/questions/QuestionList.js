@@ -38,7 +38,7 @@ function QuestionList() {
                 ) : (
                     <>
                         <h1>Quiz Complete</h1>
-                        <h2>Total Correct: {score}</h2>
+                        <h2>Total Correct: {score}/{questions.length}</h2>
                     </>
                 )}
             </section>

@@ -87,6 +87,17 @@
       ],
       "correctIndex": 0,
       "id": 8
+    },
+    {
+      "prompt": "asdasdsad",
+      "answers": [
+        "asdsadsad",
+        "asdasdsa",
+        "dasdasdsad",
+        "asdasdasd"
+      ],
+      "correctIndex": 0,
+      "id": 9
     }
   ],
   "flashcards": [
@@ -144,48 +155,6 @@
       "id": 11,
       "prompt": "ReactDOM",
       "answer": "This is a JavaScript library that contains several React-specific methods, all of which deal with the DOM in some way or another."
-    },
-    {
-      "prompt": "asdsadasdasd",
-      "answer": [
-        "asdsadasdasdasdasd"
-      ],
-      "id": 12
-    },
-    {
-      "prompt": "asdasdasdasdasdsadasd",
-      "answer": [
-        "asdsadsadasdsadadsasdasdasdsad"
-      ],
-      "id": 13
-    },
-    {
-      "prompt": "asdasdasd",
-      "answer": [
-        "asdsadsad"
-      ],
-      "id": 14
-    },
-    {
-      "prompt": "hgfjghjghjghjgh",
-      "answer": [
-        "ghjghjhgjghjhgj"
-      ],
-      "id": 15
-    },
-    {
-      "prompt": "ghjhgjgjhgjhgjhgj",
-      "answer": [
-        "ghjghjghjghjghjghjhgj"
-      ],
-      "id": 16
-    },
-    {
-      "prompt": "ghjghjhgjghjhgjghj",
-      "answer": [
-        "ghjghjghjgjghjghjghjghjghjghj"
-      ],
-      "id": 17
     }
   ]
 }
