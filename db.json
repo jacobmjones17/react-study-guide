@@ -1,314 +1,191 @@
 {
-    "questions": [
-        {
-            "id": 1,
-            "prompt": "What special prop should always be included for lists of elements?",
-            "answers": [
-                "id",
-                "name",
-                "key",
-                "prop"
-            ],
-            "correctIndex": 2
-        },
-        {
-            "id": 2,
-            "prompt": "A React component is a function that returns ______.",
-            "answers": [
-                "HTML",
-                "JSX",
-                "props",
-                "state"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "id": 3,
-            "prompt": "Which event handler will run when a user is finished filling out a form?",
-            "answers": [
-                "onSubmit",
-                "onClick",
-                "onChange",
-                "onForm"
-            ],
-            "correctIndex": 0
-        },
-        {
-            "id": 4,
-            "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
-            "answers": [
-                "React",
-                "Babel",
-                "Webpack",
-                "ES6"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "id": 5,
-            "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
-            "answers": [
-                "spread",
-                "key-value",
-                "coalescing",
-                "destructuring"
-            ],
-            "correctIndex": 3
-        },
-        {
-            "id": 6,
-            "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
-            "answers": [
-                "voodoo",
-                "conditional",
-                "reactive",
-                "controlled"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "id": 7,
-            "prompt": "A controlled component is a component that derives its input values from ____.",
-            "answers": [
-                "State",
-                "useEffect",
-                "Array",
-                "Props"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 8,
-            "prompt": "Event listeners cannot be attached directly to our custom React components.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 9,
-            "prompt": "React will always re-render a component when the setState function is called.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 10,
-            "prompt": "A React function component must start with a capital letter.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correctIndex": "1"
-        },
-        {
-            "id": 11,
-            "prompt": "We use a/an ______ to pass data into a component.",
-            "answers": [
-                "Object",
-                "useEffect",
-                "Array",
-                "Props"
-            ],
-            "correctIndex": "3"
-        },
-        {
-            "id": 12,
-            "prompt": "When should you use the key prop?",
-            "answers": [
-                "I don't know",
-                "Any time '.map' is used in a component",
-                "When rendering an array of components",
-                "If two components are siblings"
-            ],
-            "correctIndex": "2"
-        },
-        {
-            "id": 13,
-            "prompt": "Natasha is building a Twitter clone, and is trying to fetch some data from the Twitter API when her App component loads. What is the best approach to doing this?",
-            "answers": [
-                "Making the user click a button and handling the fetch request in the click event handler.",
-                "Using the useEffect hook to fetch all the tweets she initially needs.",
-                "I don't know.",
-                "Making the fetch request directly in the body of the component function. "
-            ],
-            "correctIndex": "1"
-        },
-        {
-            "id": 14,
-            "prompt": "Natasha now wants her users to be able to update their profiles in her Twitter clone. A user should be able to update their profile by filling out and submitting a form. She'll then need to take the data from the form and send it to her backend by making a PATCH request. Should she handle this action with the useEffect hook, or by attaching an event listener?",
-            "answers": [
-                "I don't know.",
-                "useEffect, because she needs the data immediately when the page loads.",
-                "Event listener, because she only wants the fetch to fire when the user is done updating their profile."
-            ],
-            "correctIndex": "2"
-        },
-        {
-            "id": 15,
-            "prompt": "When we're using the useEffect hook, React gives us a way to control when the side effect function will run. What is it?",
-            "answers": [
-                "By passing a second argument to useEffect of a dependencies array.",
-                "By calling the useEffect inside an if/else statement.",
-                "I don't know",
-                "By running a cleanup function in a useEffect callback function."
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 16,
-            "prompt": "When and why should we use a cleanup function with useEffect?",
-            "answers": [
-                "Any time we make a network request with fetch.",
-                "If we have a long running function that we want to stop running when our component is no longer the page.",
-                "I don't know.",
-                "Always, just to be safe. "
-            ],
-            "correctIndex": "1"
-        },
-        {
-            "id": 17,
-            "prompt": "Which hook gives us the ability to programmatically navigate the user to a new page in our application?",
-            "answers": [
-                "useState",
-                "useParams",
-                "useHistory",
-                "I don't know."
-            ],
-            "correctIndex": "2"
-        },
-        {
-            "id": 18,
-            "prompt": "______ is the process of handling all the routing logic with JavaScript, without making any additional GET requests for some new HTML document.",
-            "answers": [
-                "Client-Side Routing",
-                "Virtual DOM",
-                "useEffect",
-                "useHistory"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 19,
-            "prompt": "Server-side routing happens when the route is handled internally by the JavaScript that is loaded on the page.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 20,
-            "prompt": "The useParams hook allows a component to access data based on the dynamic portion of the URL, such as /dogs/:id.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 21,
-            "prompt": "We use ______ to change the browser's URL and show the user a new page in our application without making the user click on a link.",
-            "answers": [
-                "Dynamic Routing",
-                "Client-Side Routing",
-                "I don't know",
-                "Programmatic Navigation"
-            ],
-            "correctIndex": "3"
-        },
-        {
-            "id": 22,
-            "prompt": "Which hook should we use to access the dynamic pieces of a URL?",
-            "answers": [
-                "I don't know.",
-                "useState",
-                "useParams",
-                "useHistory"
-            ],
-            "correctIndex": "2"
-        },
-        {
-            "id": 23,
-            "prompt": "Which of the following commands will download all the packages listed in a package.json file?",
-            "answers": [
-                "npm init",
-                "npm install",
-                "npm start",
-                "npm run"
-            ],
-            "correctIndex": "0"
-        },
-        {
-            "id": 24,
-            "prompt": "is a package manager for JavaScript that works with your JavaScript project directories via the command line, allowing you to install packages of preexisting code.",
-            "answers": [
-                "npm",
-                "JSX",
-                "BABEL",
-                "HTML"
-            ],
-            "correctIndex": "0"
-        }
-    ],
-    "flashcards": [
-        {
-            "id": 1,
-            "prompt": "State",
-            "answer": "The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders."
-        },
-        {
-            "id": 2,
-            "prompt": "React",
-            "answer": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components.'"
-        },
-        {
-            "id": 3,
-            "prompt": "Is setState synchronous or asynchronous?",
-            "answer": "setState is asynchronous, though it may act like it's synchronous. When calling setState, React waits for all components have finished calling setState to then re-render components. This boosts performance and reduces unneccessary re-renders."
-        },
-        {
-            "id": 4,
-            "prompt": "JSX",
-            "answer": "JSX is a syntax notation for Javascript XML and provides expressiveness of JavaScript along with HTML."
-        },
-        {
-            "id": 5,
-            "prompt": "virtual DOM",
-            "answer": "The virtual DOM (VDOM) is a programming concept where a virtual representation of a UI is kept in memory and synced with the 'real' DOM by a library such as ReactDOM. This process is called reconciliation. React uses a diffing algorithm to update only the changes it finds."
-        },
-        {
-            "id": 6,
-            "prompt": "Props",
-            "answer": "Props are arguments passed into React components and are passed down similar to HTML attributes. Props are read-only and can be JavaScript expressions, string literals, callback functions, and other components."
-        },
-        {
-            "id": 7,
-            "prompt": "React Router",
-            "answer": "This is a JavaScript (user-interface framework) library developed by engineers at Facebook."
-        },
-        {
-            "id": 8,
-            "prompt": "ReactJS",
-            "answer": "React Router is a standard library for routing in React and is used mainly for developing single page applications and offers dynamic routing. Some of its components are BrowserRouter, Route, Link, and Switch."
-        },
-        {
-            "id": 9,
-            "prompt": "JSX element",
-            "answer": "A basic unit of JSX found in a JavaScript file which is treated as, and has the functionality of, a JavaScript expression. It can also have attributes, just like HTML elements."
-        },
-        {
-            "id": 10,
-            "prompt": "A JSX expression must have",
-            "answer": "exactly one outermost element."
-        },
-        {
-            "id": 11,
-            "prompt": "ReactDOM",
-            "answer": "This is a JavaScript library that contains several React-specific methods, all of which deal with the DOM in some way or another."
-        }
-    ]
+  "questions": [
+    {
+      "id": 1,
+      "prompt": "What special prop should always be included for lists of elements?",
+      "answers": [
+        "id",
+        "name",
+        "key",
+        "prop"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "prompt": "A React component is a function that returns ______.",
+      "answers": [
+        "HTML",
+        "JSX",
+        "props",
+        "state"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "prompt": "Which event handler will run when a user is finished filling out a form?",
+      "answers": [
+        "onSubmit",
+        "onClick",
+        "onChange",
+        "onForm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
+      "answers": [
+        "React",
+        "Babel",
+        "Webpack",
+        "ES6"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
+      "answers": [
+        "spread",
+        "key-value",
+        "coalescing",
+        "destructuring"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
+      "answers": [
+        "voodoo",
+        "conditional",
+        "reactive",
+        "controlled"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "what is my favorite food",
+      "answers": [
+        "steak",
+        "chicken",
+        "pizza",
+        "tacos"
+      ],
+      "correctIndex": 0,
+      "id": 7
+    },
+    {
+      "prompt": "A controlled component is a component that derives its input values from ____.",
+      "answers": [
+        "State",
+        "useEffect",
+        "Array",
+        "Props"
+      ],
+      "correctIndex": 0,
+      "id": 8
+    }
+  ],
+  "flashcards": [
+    {
+      "id": 1,
+      "prompt": "State",
+      "answer": "The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders."
+    },
+    {
+      "id": 2,
+      "prompt": "React",
+      "answer": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components.'"
+    },
+    {
+      "id": 3,
+      "prompt": "Is setState synchronous or asynchronous?",
+      "answer": "setState is asynchronous, though it may act like it's synchronous. When calling setState, React waits for all components have finished calling setState to then re-render components. This boosts performance and reduces unneccessary re-renders."
+    },
+    {
+      "id": 4,
+      "prompt": "JSX",
+      "answer": "JSX is a syntax notation for Javascript XML and provides expressiveness of JavaScript along with HTML."
+    },
+    {
+      "id": 5,
+      "prompt": "virtual DOM",
+      "answer": "The virtual DOM (VDOM) is a programming concept where a virtual representation of a UI is kept in memory and synced with the 'real' DOM by a library such as ReactDOM. This process is called reconciliation. React uses a diffing algorithm to update only the changes it finds."
+    },
+    {
+      "id": 6,
+      "prompt": "Props",
+      "answer": "Props are arguments passed into React components and are passed down similar to HTML attributes. Props are read-only and can be JavaScript expressions, string literals, callback functions, and other components."
+    },
+    {
+      "id": 7,
+      "prompt": "React Router",
+      "answer": "This is a JavaScript (user-interface framework) library developed by engineers at Facebook."
+    },
+    {
+      "id": 8,
+      "prompt": "ReactJS",
+      "answer": "React Router is a standard library for routing in React and is used mainly for developing single page applications and offers dynamic routing. Some of its components are BrowserRouter, Route, Link, and Switch."
+    },
+    {
+      "id": 9,
+      "prompt": "JSX element",
+      "answer": "A basic unit of JSX found in a JavaScript file which is treated as, and has the functionality of, a JavaScript expression. It can also have attributes, just like HTML elements."
+    },
+    {
+      "id": 10,
+      "prompt": "A JSX expression must have",
+      "answer": "exactly one outermost element."
+    },
+    {
+      "id": 11,
+      "prompt": "ReactDOM",
+      "answer": "This is a JavaScript library that contains several React-specific methods, all of which deal with the DOM in some way or another."
+    },
+    {
+      "prompt": "asdsadasdasd",
+      "answer": [
+        "asdsadasdasdasdasd"
+      ],
+      "id": 12
+    },
+    {
+      "prompt": "asdasdasdasdasdsadasd",
+      "answer": [
+        "asdsadsadasdsadadsasdasdasdsad"
+      ],
+      "id": 13
+    },
+    {
+      "prompt": "asdasdasd",
+      "answer": [
+        "asdsadsad"
+      ],
+      "id": 14
+    },
+    {
+      "prompt": "hgfjghjghjghjgh",
+      "answer": [
+        "ghjghjhgjghjhgj"
+      ],
+      "id": 15
+    },
+    {
+      "prompt": "ghjhgjgjhgjhgjhgj",
+      "answer": [
+        "ghjghjghjghjghjghjhgj"
+      ],
+      "id": 16
+    },
+    {
+      "prompt": "ghjghjhgjghjhgjghj",
+      "answer": [
+        "ghjghjghjgjghjghjghjghjghjghj"
+      ],
+      "id": 17
+    }
+  ]
 }

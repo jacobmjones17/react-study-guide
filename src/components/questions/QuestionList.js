@@ -8,6 +8,7 @@ function QuestionList() {
     const [score, setScore] = useState(0);
     const currentQuestion = questions.find((q) => q.id === currentQuestionId);
 
+
     useEffect(() => {
         fetch("http://localhost:3000/questions")
         .then((response) => response.json())
@@ -24,6 +25,7 @@ function QuestionList() {
             setScore((score) => score + 1);
         }
     }
+
 
     return (
         <main>

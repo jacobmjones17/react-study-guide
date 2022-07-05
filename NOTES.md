@@ -20,19 +20,8 @@ Stretch Goals
 - Update Questions
 
 
-
-
-<!-- import React from "react";
-
-<!-- function AdminNavBar({ onChangePage }) {
-  return (
-    <!-- <nav>
-      <button onClick={() => onChangePage("List")}>Quiz</button>
-      <button onClick={() => onChangePage("Card")}>Flashcard</button>
-      <button onClick={() => onChangePage("Form")}>Add Question</button>
-      <button onClick={() => onChangePage("Card")}>Add Flashcard</button>
-    </nav> -->
-  );
-} -->
-
-export default AdminNavBar; -->
+Questions for instructor:
+1. How do I fix the score
+2. How do I keep the <h1> "Study Guide" and <NavLinks> on all pages.
+3. Help me style
+4. How do I get forms to clear on submit 

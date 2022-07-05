@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function CardForm(props) {
+function CardForm() {
     const [formData, setFormData] = useState({
         prompt: "",
         answer: "",
@@ -30,7 +30,10 @@ function CardForm(props) {
             body: JSON.stringify(newCardInfo)
         })
             .then((response) => response.json())
-            .then((newCard) => setFormData(newCard))
+            .then((newCard) => setFormData({
+                prompt: "",
+                answer: "",
+            }))
     }
 
     return (

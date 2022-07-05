@@ -5,10 +5,12 @@ import QuestionList from "./components/questions/QuestionList";
 import QuestionForm from "./components/questions/QuestionForm";
 import CardForm from "./components/flashcards/CardForm";
 import CardList from "./components/flashcards/CardList";
+import NavBar from './components/NavBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <NavBar />
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="quiz" element={<QuestionList />} />

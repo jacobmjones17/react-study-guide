@@ -12,7 +12,8 @@ const linkStyles = {
 };
 
 function NavBar() {
-    return <div>
+    return ( 
+    <div>
     <NavLink
         to="/quiz"
         exact
@@ -55,6 +56,7 @@ function NavBar() {
     </NavLink>
     
     </div>
+    )
 }
 
 export default NavBar;
