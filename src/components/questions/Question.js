@@ -33,7 +33,7 @@ function Question({ question, onAnswered }) {
             {answers.map((answer, index) => {
                 const isCorrect = index === correctIndex;
                 return (
-                    <button key={answer} onClick={() => handleAnswer(isCorrect)}>
+                    <button key={answer}  className="button" onClick={() => handleAnswer(isCorrect)}>
                         {answer}
                     </button>
                 );

@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
     display: "inline-block",
-    width: "50px",
+    width: "105px",
     padding: "12px",
     margin: "0 6px 6px",
-    background: "blue",
+    background: "rgba(77, 73, 73, 0.329)",
     textDecoration: "none",
-    color: "white",
+    color: "rgb(107, 255, 255)",
 };
 
 function NavBar() {
@@ -18,18 +18,17 @@ function NavBar() {
         to="/quiz"
         exact
         style={linkStyles}
-        activeStyle={{
-            background:"orange"
+        activestyle={{
+            background:"pink",
         }}
     >
         Quiz
     </NavLink>
     <NavLink
         to="/flashcards"
-        exact
         style={linkStyles}
-        activeStyle={{
-            background:"orange"
+        activestyle={{
+            background:"pink",
         }}
     >
         Flash Cards
@@ -38,8 +37,8 @@ function NavBar() {
         to="/addquestion"
         exact
         style={linkStyles}
-        activeStyle={{
-            background:"orange"
+        activestyle={{
+            background:"pink",
         }}
     >
         Add Question
@@ -48,13 +47,13 @@ function NavBar() {
         to="/addflashcard"
         exact
         style={linkStyles}
-        activeStyle={{
-            background:"orange"
+        activestyle={{
+            background:"pink"
         }}
     >
         Add Flash Card
     </NavLink>
-    
+
     </div>
     )
 }

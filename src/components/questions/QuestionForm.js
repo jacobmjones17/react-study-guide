@@ -50,6 +50,7 @@ function QuestionForm() {
 
   return (
     <section>
+      <div className="questionform">
       <h1>New Question</h1>
       <form onSubmit={handleSubmit}>
         <label>
@@ -112,6 +113,7 @@ function QuestionForm() {
         </label>
         <button type="submit">Add Question</button>
       </form>
+      </div>
     </section>
   );
 }

@@ -29,9 +29,10 @@ function QuestionList() {
 
     return (
         <main>
-            <section>
+            <section className="quizspacer">
+                <div className="innerspacer">
                 {currentQuestion ? (
-                    <Question
+                        <Question
                         question={currentQuestion}
                         onAnswered={handleQuestionAnswered}
                     />
@@ -41,6 +42,7 @@ function QuestionList() {
                         <h2>Total Correct: {score}/{questions.length}</h2>
                     </>
                 )}
+                </div>
             </section>
         </main>
     );

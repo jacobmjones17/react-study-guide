@@ -67,17 +67,6 @@
       "correctIndex": 1
     },
     {
-      "prompt": "what is my favorite food",
-      "answers": [
-        "steak",
-        "chicken",
-        "pizza",
-        "tacos"
-      ],
-      "correctIndex": 0,
-      "id": 7
-    },
-    {
       "prompt": "A controlled component is a component that derives its input values from ____.",
       "answers": [
         "State",
@@ -86,18 +75,16 @@
         "Props"
       ],
       "correctIndex": 0,
-      "id": 8
+      "id": 7
     },
     {
-      "prompt": "asdasdsad",
+      "prompt": "Event listeners cannot be attached directly to our custom react components.",
       "answers": [
-        "asdsadsad",
-        "asdasdsa",
-        "dasdasdsad",
-        "asdasdasd"
+        "True",
+        "False"
       ],
       "correctIndex": 0,
-      "id": 9
+      "id": 8
     }
   ],
   "flashcards": [
