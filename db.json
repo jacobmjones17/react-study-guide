@@ -85,6 +85,15 @@
       ],
       "correctIndex": 0,
       "id": 8
+    },
+    {
+      "prompt": "React will always re-render a component when the setState function is called.",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correctIndex": 0,
+      "id": 9
     }
   ],
   "flashcards": [

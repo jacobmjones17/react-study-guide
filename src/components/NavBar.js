@@ -15,21 +15,22 @@ function NavBar() {
     return ( 
     <div>
     <NavLink
+        to="/"
+        exact
+        style={linkStyles}
+    >
+        Home
+    </NavLink>
+    <NavLink
         to="/quiz"
         exact
         style={linkStyles}
-        activestyle={{
-            background:"pink",
-        }}
     >
         Quiz
     </NavLink>
     <NavLink
         to="/flashcards"
         style={linkStyles}
-        activestyle={{
-            background:"pink",
-        }}
     >
         Flash Cards
     </NavLink>
@@ -37,9 +38,7 @@ function NavBar() {
         to="/addquestion"
         exact
         style={linkStyles}
-        activestyle={{
-            background:"pink",
-        }}
+        
     >
         Add Question
     </NavLink>
@@ -47,13 +46,9 @@ function NavBar() {
         to="/addflashcard"
         exact
         style={linkStyles}
-        activestyle={{
-            background:"pink"
-        }}
     >
         Add Flash Card
     </NavLink>
-
     </div>
     )
 }
