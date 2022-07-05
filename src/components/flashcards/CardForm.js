@@ -38,6 +38,7 @@ function CardForm() {
 
     return (
         <section>
+            <div className="cardform">
             <h1>New Flashcard</h1>
             <form onSubmit={handleSubmit}>
                 <label>
@@ -60,6 +61,7 @@ function CardForm() {
                 </label>
                 <button type="submit">Add Flashcard</button>
             </form>
+            </div>
         </section>
     );
 }
