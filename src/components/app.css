@@ -27,8 +27,8 @@ body {
     border-radius: 1rem;
     border-color: rgb(107, 255, 255);
     border: 10rem;
-    box-shadow: 0 0 10px 5px rgba(26, 2, 185, 0.3);
-    background-image: url("https://static.vecteezy.com/system/resources/previews/003/690/790/non_2x/abstract-background-of-yellow-cloudy-free-photo.jpg");
+    box-shadow: 0 0 10px 5px rgb(10, 4, 66);
+    background-image: url("https://t4.ftcdn.net/jpg/02/42/03/25/240_F_242032542_DMW2J5F2t1P2mTOF3xRpxpOUwqSueGuh.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
