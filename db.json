@@ -96,15 +96,90 @@
       "id": 9
     },
     {
-      "prompt": "What is David's last name",
+      "prompt": "Which hook gives us the ability to programmatically navigate the user to a new page in our application?",
       "answers": [
-        "Verghese",
-        "Jones",
-        "Scott",
-        "Banks"
+        "useState",
+        "useParams",
+        "I don't know",
+        "useHistory"
+      ],
+      "correctIndex": 3,
+      "id": 10
+    },
+    {
+      "prompt": "Server-side routing happens when the route is handled internally by the JavaScript that is loaded on the page.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "id": 11
+    },
+    {
+      "prompt": "We use ______ to change the browser's URL and show the user a new page in our application without making the user click on a link.",
+      "answers": [
+        "Dynamic Routing",
+        "Client-Side Routing",
+        "I don't know",
+        "Programmatic Navigation"
+      ],
+      "correctIndex": 1,
+      "id": 12
+    },
+    {
+      "prompt": "Which hook should we use to access the dynamic pieces of a URL?",
+      "answers": [
+        "useEffect",
+        "useState",
+        "useParams",
+        "useHistory"
+      ],
+      "correctIndex": 2,
+      "id": 13
+    },
+    {
+      "prompt": "When we're using the useEffect hook, React gives us a way to control when the side effect function will run. What is it",
+      "answers": [
+        "By passing a second argument to useEffect of a dependencies array.",
+        "By calling the useEffect inside an if/else statement.",
+        "By running a cleanup function in a useEffect callback function.",
+        "I don't know."
       ],
       "correctIndex": 0,
-      "id": 10
+      "id": 14
+    },
+    {
+      "prompt": "Natasha is building a Twitter clone, and is trying to fetch some data from the Twitter API when her App component loads. What is the best approach to doing this?",
+      "answers": [
+        "Making the user click a button and handling the fetch request in the click event handler.",
+        "Using the useEffect hook to fetch all the tweets she initially needs.",
+        "I don't know.",
+        "Making the fetch request directly in the body of the component function."
+      ],
+      "correctIndex": 1,
+      "id": 15
+    },
+    {
+      "prompt": "When and why should we use a cleanup function with useEffect?",
+      "answers": [
+        "Any time we make a network request with fetch.",
+        "If we have a long running function that we want to stop running when our component is no longer the page.",
+        "Always, just to be safe.",
+        "I don't know."
+      ],
+      "correctIndex": 1,
+      "id": 16
+    },
+    {
+      "prompt": "Which of the following commands will download all the packages listed in a package.json file?",
+      "answers": [
+        "$ npm init",
+        "$ npm install",
+        "$ npm start",
+        "$ npm run"
+      ],
+      "correctIndex": 1,
+      "id": 17
     }
   ],
   "flashcards": [
@@ -136,7 +211,7 @@
     {
       "id": 6,
       "prompt": "Props",
-      "answer": "Props are arguments passed into React components and are passed down similar to HTML attributes. Props are read-only and can be JavaScript expressions, string literals, callback functions, and other components."
+      "answer": "Is data passed down to a child component from a parent component."
     },
     {
       "id": 7,
@@ -162,6 +237,31 @@
       "id": 11,
       "prompt": "ReactDOM",
       "answer": "This is a JavaScript library that contains several React-specific methods, all of which deal with the DOM in some way or another."
+    },
+    {
+      "id": 12,
+      "prompt": "npm is a?",
+      "answer": "package manager for JavaScript that works with your JavaScript project directories via the command line, allowing you to install packages of preexisting code"
+    },
+    {
+      "id": 13,
+      "prompt": "A controlled component",
+      "answer": "is a component that derives its input values from state"
+    },
+    {
+      "id": 14,
+      "prompt": "client-side routing",
+      "answer": "is the process of handling all the routing logic with JavaScript, without making any additional GET requests for some new HTML document."
+    },
+    {
+      "id": 15,
+      "prompt": "Route's responsibility is?",
+      "answer": "to render a component when its path matches the current URL."
+    },
+    {
+      "id": 16,
+      "prompt": "useParam hook returns?",
+      "answer": "an object of key/value pairs of URL parameters."
     }
   ]
 }
